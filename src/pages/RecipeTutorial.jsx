@@ -9,7 +9,7 @@ const RecipeTutorial = () => {
   const [videos, setVideos] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const apiKey = 'AIzaSyAQo3wHs74mJA10Dp5kvDzDEPkgvtZtYq4'; // Replace with your YouTube API key
+  const apiKey = 'AIzaSyAQo3wHs74mJA10Dp5kvDzDEPkgvtZtYq4'; 
 
   const searchVideos = async () => {
     setLoading(true);

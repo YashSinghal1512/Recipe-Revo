@@ -14,7 +14,7 @@ const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // Replace with your API endpoint
+      
       await axios.post('YOUR_API_ENDPOINT/signup', formData);
       navigate('/login');
     } catch (error) {
