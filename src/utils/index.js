@@ -1,7 +1,7 @@
 export async function fetchRecipes(filter) {
     const { query, limit } = filter;
 
-    // Hard-coded credentials
+    
     const appId = '7eeb9410';
     const apiKey = 'a8b266234d4221cb97aa2eff8b97f351';
 
@@ -13,7 +13,7 @@ export async function fetchRecipes(filter) {
     return data?.hits;
 }
 export async function fetchRecipe(id) {
-    // Hard-coded credentials
+    
     const appId = '7eeb9410';
     const apiKey = 'a8b266234d4221cb97aa2eff8b97f351';
 
