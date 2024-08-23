@@ -55,9 +55,4 @@ npm start
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-## License
 
-This project is licensed under the MIT License.
-```
-
-This README provides a clear overview of the **Recipe Revo** project, its features, installation instructions, and usage guidelines.
